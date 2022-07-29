@@ -71,3 +71,7 @@
     display: inline-block;
     
 }
+.join-section .container{
+    background-color: #289BDE;
+    color: #fff;
+}
