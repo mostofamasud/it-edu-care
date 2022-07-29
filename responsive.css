@@ -1,0 +1,135 @@
+@media only screen and (max-width: 688px) {
+   .banner{
+    text-align: center;
+    width: 100%;
+   }
+    .banner-left, .banner-right{
+    width: 100%;
+   }
+   .banner-left-mobile{
+    padding: 60px 0;
+   }
+   .banner-left-mobile p {
+    width: 70%;
+    /* height: 30px; */
+    overflow: hidden;
+    margin: 0 auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+   }
+   .banner-right-mobile{
+   align-items: center;
+   }
+   .banner-left h1{
+    font-size: 40px;
+    text-align: center;
+    /* text-overflow: ellipsis; */
+   }
+
+   .desktop-device{
+    display: none;
+   }
+   .mobile-device{
+    display: block;
+   }
+   /* Blogs */
+   .blog-container{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns:  1fr;
+}
+   .blog-menu-container{
+    background-color: #fff;
+   }
+   .blog-menu{
+    border: 1px solid #ddd;
+   }
+
+   .blog{
+    width: 100%;
+   }
+   .articles{
+    border: 1px solid #ddd;
+    margin: 0 10px;
+    padding: 0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.only-for-tablet{
+    display: none;
+}
+.footer-menu{
+    color: #fff;
+    display: block;
+    padding: 10px 30px;
+
+}
+}
+
+/* Responsive for Tablet */
+@media only screen and (min-width: 689px) and (max-width:992px){
+    .banner{
+        width: 100%;
+    }
+    .banner-left h1{
+        font-size: 40px;
+       }
+    .banner-left p{
+        font-size: 16px;
+       }
+    
+       .mobile-device{
+        display: none;
+       }
+       .banner-right{
+        text-align: right;
+       }
+       .banner:hover> .banner-left img{
+        width: 10%;
+       }
+       .default-btn:hover{
+        width: 250px;
+    }
+       /* Blogs */
+       .blog-container{
+        width: 100%;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+       .blog-menu-container{
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        
+       }
+       .blog-menu{
+        border: 1px solid #ddd;
+       }
+    
+       .blog{
+        width: 100%;
+       }
+       .blog-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       }
+       .articles{
+        border: 1px solid #ddd;
+        margin: 10px;
+        padding: 0;
+        border-radius: 10px;
+        /* margin-bottom: 20px; */
+        width: 97%;
+    }
+    .only-for-tablet{
+        display: block;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+}

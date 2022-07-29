@@ -1,0 +1,72 @@
+.carousel-item img{
+    height: 90vh;
+}
+.carousel-caption{
+    padding-bottom: 5rem;
+}
+.carousel-caption h1{
+    font-size: 70px;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+@media only screen and (max-width: 688px) {
+    .carousel-item img{
+        height: 50vh;
+    }
+    .carousel-caption{
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+    .carousel-caption h1{
+        font-size: 30px;
+    }
+    .carousel-caption p{
+        font-size: 16px;
+    }
+    .btn-primary{
+        background-color: #289BDE;
+        font-weight: 700;
+        border: none;
+        font-size: 16px;
+        margin: 0;
+    }
+    /* .card{
+        width: 100%;
+        margin: 0 auto;
+    } */
+}
+.btn-primary{
+    background-color: #289BDE;
+    font-weight: 700;
+    border: none;
+    opacity: 2;
+}
+
+/*Course */
+.image{
+    margin-left: -12px;
+    max-width: 100%;
+}
+.course-image img{
+    width: 100%;
+    max-width: 100%;
+}
+.course-details h2{
+    font-size: 26px;
+    padding-bottom: 8px;
+    color: #4a4a4a;
+}
+.course-details p{
+    font-size: 16px;
+    padding-bottom: 8px;
+    margin: 0;
+    color: #7a7a7a;
+}
+.course-details p.price{
+    color: #289bde;
+}
+/* .card{
+    width: 49%;
+    margin: 0 auto;
+} */
