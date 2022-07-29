@@ -66,7 +66,8 @@
 .course-details p.price{
     color: #289bde;
 }
-/* .card{
-    width: 49%;
-    margin: 0 auto;
-} */
+.font-awesome span{
+    font-size: 25px;
+    display: inline-block;
+    
+}
